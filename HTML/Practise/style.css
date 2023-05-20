@@ -20,3 +20,20 @@ a:link{
     a:active{
     color:yellow;
     }
+
+table, th, td {
+        border:1px solid black;
+      }
+
+      .city{
+        background-color: Blue;
+        border: 2px solid black;
+       }
+       
+
+       #head3{
+        background-color: black;
+        color:white;
+        padding: 40px;
+        text-align:center;
+        }
