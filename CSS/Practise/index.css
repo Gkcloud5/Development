@@ -1,6 +1,4 @@
-* {
-  background-color: rgb(252, 216, 222);
-}
+
 body {
     font-family: sans-serif;
     padding: 2%;
@@ -27,4 +25,23 @@ color: yellow;
 
 .pexel{
   letter-spacing: 1em;
+}
+
+
+
+
+.images_ex {
+  width:100%;
+  height:40em;
+}
+.img{
+background-image: url("images/computer.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+height:100%
+}
+
+.img > p{
+  text-align: center;
+  padding-top: 5em;
 }
