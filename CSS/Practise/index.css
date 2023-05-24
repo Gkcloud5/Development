@@ -117,3 +117,29 @@ table.one {
  caption.top {
   caption-side:top;
  }
+
+ p.example1 {
+  border: 1px solid;
+  border-bottom-color: brown;
+  border-top-color: yellow;
+  padding: 20px;
+  border-width: 20px;
+  border-top-style: inset;
+  border-right-style: double;
+ }
+
+ ul.list_ex1 {
+   list-style-type: circle;
+ }
+
+ li.list_out {
+  list-style-type: square;
+  list-style-position: outside;
+ }
+
+ p.padd {
+  padding-bottom: 15px;
+  border:1px solid black;
+  padding-top: 10px;
+  padding-left: 50px;
+ }
