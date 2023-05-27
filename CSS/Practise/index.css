@@ -261,6 +261,24 @@ h1.z_index1 {
 
  ul.list_head{
   list-style-type: none;
-  margon: 0;
-  
+  margin: 0;
+  padding: 0;
+  overflow:hidden;
+  background-color: gray;
+ }
+
+ .list_head > li {
+   float:left;
+ }
+
+ .list_head > li a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+ }
+
+ .list_head > li a:hover {
+  background-color: red;
  }
