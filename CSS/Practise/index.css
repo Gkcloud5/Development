@@ -372,3 +372,30 @@ input[type=submit]:hover {
     margin-top: 0;
   }
 }
+
+
+.header_top {
+  margin-top: 20px;
+  background-color: #cccaca;
+  padding: 20px;
+  text-align: center;
+}
+
+.topnav{
+  overflow: hidden;
+  background-color: #272525;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.topnav a:hover {
+  background-color: aliceblue;
+  color: #272525;
+}
