@@ -410,3 +410,24 @@ input[type=submit]:hover {
   display:table;
   clear:both;
 }
+
+@media screen and (max-width:600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+.footer {
+  display: grid;
+  background-color: #cccaca;
+  padding: 20px;
+  text-align: center;
+}
+
+#rcorners1 {
+  border-radius: 25px;
+  background: gray;
+  padding: 20px;
+  width: 200px;
+  height: 150px;
+  }
