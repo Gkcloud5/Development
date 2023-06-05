@@ -431,3 +431,28 @@ input[type=submit]:hover {
   width: 200px;
   height: 150px;
   }
+
+#example1 {
+  background-image: url(Images/watch.jpg);
+  background-position: right bottom;
+  background-repeat: no-repeat;
+  background-size: 100px 80px;
+  width: 100%;
+  padding: 5px;
+}
+
+.full_image {
+  background: url(Images/Studyroom.jpg) no-repeat center fixed;
+  background-size: cover;
+  width: 100%;
+  height: 100em;
+  position: relative;
+}
+
+.shadow {
+  background: url(Images/computer.jpg) no-repeat center;
+  background-size: cover;
+  width:33%;
+  height: 30em;
+  position: relative;
+}
