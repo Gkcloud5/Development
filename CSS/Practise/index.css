@@ -455,4 +455,25 @@ input[type=submit]:hover {
   width:33%;
   height: 30em;
   position: relative;
+  box-shadow: 9px 3px 19px rgb(62, 63, 63);
+}
+
+#text_shadow {
+  font-size: 20px;
+  text-shadow: 2px 2px;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.transistion {
+  margin-top: 20px;
+  width:300px;
+  height:100px;
+  background-color:yellow;
+  border:1px solid black;
+}
+
+.transistion_rotate{
+  transform: rotate(30deg);
+  background-color:rgb(123, 224, 154);
 }
