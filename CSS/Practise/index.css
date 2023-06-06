@@ -474,6 +474,33 @@ input[type=submit]:hover {
 }
 
 .transistion_rotate{
-  transform: rotate(30deg);
+  transform: rotate(20deg);
   background-color:rgb(123, 224, 154);
+}
+
+.transistion-3d {
+  margin-top: 20px;
+  width:300px;
+  height:100px;
+  background-color:yellow;
+  border:1px solid black;
+}
+
+.transistion_rotate-3d{
+  transform: rotateX(150deg);
+  background-color:rgb(123, 224, 154);
+}
+
+div.transistion-move {
+   width:100px;
+   height:100px;
+   background: red;
+   transition: width 2s, transform 2s;
+   transition-timing-function: linear; 
+   
+}
+
+div.transistion-move:hover {
+   width: 300px;
+   transform: rotate(180deg)
 }
