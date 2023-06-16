@@ -515,8 +515,8 @@ div.transistion-move:hover {
   animation-duration: 10s;
   text-align: center;
   padding: 15px;
-  animation-iteration-count: infinite;
-  animation-direction: alternate;
+  /* animation-iteration-count: infinite; */
+  /* animation-direction: alternate; */
 }
 
 @keyframes example {
@@ -532,7 +532,7 @@ div.transistion-move:hover {
   border-radius: 4px;
   background-color: #f4511e;
   border: none;
-  color: #FFFFFF;
+  color: #3A3360;
   text-align: center;
   font-size: 28px;
   padding: 20px;
@@ -567,3 +567,22 @@ div.transistion-move:hover {
   right: 0;
 }
 
+.flex-container{
+  border: 2px solid brown;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  /* justify-content: center; */
+  justify-content: space-around;
+  justify-content: space-between;
+  align-items: center;
+  align-content: space-between;
+  align-content: space-around;
+}
+
+.item{
+  border: 2px solid green;
+  background-color: #cccaca;
+  color: #f4511e;
+  width: 200px;
+}
