@@ -169,3 +169,17 @@ if (ages < 18) {
 }
 
 welcome();
+
+
+let sumTot = (a, b) => a+b
+console.log(sumTot(2, 5))
+
+let sayHello = () => console.log("without argument")
+sayHello();
+
+let sumCurly = (a, b) => {
+	let result = a + b;
+	return result
+}
+
+console.log(sumCurly(5,5))
