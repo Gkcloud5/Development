@@ -37,12 +37,12 @@ console.log(typeof Math);
 console.log(typeof null);
 console.log(typeof alert);
 
-let ages = prompt('How old are you?', 100);
-console.log(`You are ${ages} years old!`)
-// alert(`You are ${ages} years old!`);
+// let ages = prompt('How old are you?', 100);
+// console.log(`You are ${ages} years old!`)
+// // alert(`You are ${ages} years old!`);
 
-let confirm_test = confirm("are you okay?")
-console.log(confirm_test)
+// let confirm_test = confirm("are you okay?")
+// console.log(confirm_test)
 
 let value1 = true;
 console.log(typeof value1);
@@ -124,7 +124,7 @@ do {
 function sayHi(){
     console.log("Function executed without call")
 }
-
+sayHi()
 let func = sayHi;
 
 func();
@@ -134,5 +134,5 @@ let test1 = function() {
 	console.log("test1")
  }
 
- let test2 = test1;
- test2()
+test1()
+ 
