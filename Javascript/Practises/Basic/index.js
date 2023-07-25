@@ -152,3 +152,20 @@ function showCancel(){
 
 
 ask("do you agree?", showOk, showCancel)
+
+let ages = prompt("what is you age", 18);
+
+let welcome;
+
+if (ages < 18) {
+	welcome = function() {
+		console.log("value under 18")
+	}
+} else {
+	console.log("outside function")
+	welcome =  function() {
+		console.log("value above 18")
+	}
+}
+
+welcome();
