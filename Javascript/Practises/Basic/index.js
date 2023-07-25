@@ -136,3 +136,19 @@ let test1 = function() {
 
 test1()
  
+
+function ask(question, yes, no) {
+	if (confirm(question)) yes()
+	else no();
+}
+
+function showOk(){
+	console.log("pressed yes")
+}
+
+function showCancel(){
+	console.log("canceled execution")
+}
+
+
+ask("do you agree?", showOk, showCancel)
