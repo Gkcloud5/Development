@@ -66,3 +66,73 @@ let s = "my" + "string";
 console.log(s);
 
 console.log(2 + 2 + '1');
+
+console.log( true ||  true)
+console.log( false || true)
+console.log( true || false)
+console.log( false || false)
+
+console.log(true && true)
+console.log(false && true)
+
+
+console.log( !true )
+console.log( !0 )
+
+// console.log(height ?? 100) 
+let height = 0;
+console.log(height ?? 100)
+
+function showMessage() {
+	console.log("this is shoeMessage value")
+}
+
+showMessage();
+
+
+function passMsg(from, text="default msg") {
+    console.log(from, ":", text)
+  }
+  
+passMsg("gokul")
+
+let i = 0;
+while (i < 3){
+	console.log (i);
+	i++
+}
+
+let xy = 3;
+while (i)
+{
+console.log("i--", i)
+i--;
+}
+
+
+let do1 = 0;
+do {
+    console.log("do1", do1);
+	do1++;
+    if (do1 == 2) {
+        console.log("do1=4", do1);
+        break;
+    }
+}while(do1 < 3)
+
+
+function sayHi(){
+    console.log("Function executed without call")
+}
+
+let func = sayHi;
+
+func();
+
+
+let test1 = function() {
+	console.log("test1")
+ }
+
+ let test2 = test1;
+ test2()
