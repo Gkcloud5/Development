@@ -151,24 +151,24 @@ function showCancel(){
 }
 
 
-ask("do you agree?", showOk, showCancel)
+//ask("do you agree?", showOk, showCancel)
 
-let ages = prompt("what is you age", 18);
+// let ages = prompt("what is you age", 18);
 
-let welcome;
+// let welcome;
 
-if (ages < 18) {
-	welcome = function() {
-		console.log("value under 18")
-	}
-} else {
-	console.log("outside function")
-	welcome =  function() {
-		console.log("value above 18")
-	}
-}
+// if (ages < 18) {
+// 	welcome = function() {
+// 		console.log("value under 18")
+// 	}
+// } else {
+// 	console.log("outside function")
+// 	welcome =  function() {
+// 		console.log("value above 18")
+// 	}
+// }
 
-welcome();
+// welcome();
 
 
 let sumTot = (a, b) => a+b
@@ -183,3 +183,95 @@ let sumCurly = (a, b) => {
 }
 
 console.log(sumCurly(5,5))
+
+let user1 = new Object();
+console.log(user1)
+let user2 = {};
+console.log(user2)
+
+let user3 = {
+	name: "John",
+	age: 30
+  };
+
+console.log(user3)
+console.log(user3.name)
+console.log(user3.age)
+
+//Add a value in object
+user3.isAdmin = true;
+console.log(user3)
+
+delete user3.age
+console.log(user3)
+
+// let fruit = prompt("Fruit to buy?", "apple");
+
+let fruit = "apple"
+
+let bag = {
+	[fruit]: 5,
+};
+
+console.log(bag)
+console.log( bag.apple ); 
+
+let user_test = { name: "John", age:30 };
+
+console.log( "age" in user_test );
+console.log( "blabla" in user_test );
+
+let user_for = {
+	name: "John",
+	age: 30,
+	isAdmin:true
+}
+  
+for (let key in user_for) {
+	
+   console.log(key)
+   console.log(user_for[key])
+}
+
+let user_ref = { name: "John" }
+let admin = user_ref;
+
+admin.name = 'Gk1'
+user_ref.age = 27
+console.log(user_ref)
+console.log(admin)
+
+let user_org = {
+	name: "John",
+	age: 30
+ };
+ 
+ let clone = {}
+ 
+ for (let key in user_org) {
+	clone[key] = user_org[key];
+ }
+ 
+ clone.name = "Gk1";
+ 
+ console.log(clone)
+ console.log(user_org)
+
+let user_combine = { name: "Gk1" };
+
+let permission1 = { canView: true };
+let permission2 = { canEdit: true };
+
+Object.assign(user_combine, permission1, permission2);
+
+console.log(user_combine)
+
+let user_nest = {
+	name: "Gk1",
+	sizes: {
+		height: 170,
+		width: 50
+		}
+};
+
+console.log(user_nest.sizes.height)
