@@ -302,3 +302,19 @@ user_ex1.f();
 admin_ex1.f();
 
 admin_ex1['f']();
+
+
+function User(name) {
+	this.name = name;
+	this.isAdmin = false;
+ }
+ 
+ let user_new_construct = new User("gk")
+ console.log(user_new_construct)
+
+ let user_func_obj = new function() {
+	this.name = "Gk func object";
+	this.isAdmin = false;
+ }
+ 
+ console.log(user_func_obj)
