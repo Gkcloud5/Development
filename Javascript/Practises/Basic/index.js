@@ -318,3 +318,16 @@ function User(name) {
  }
  
  console.log(user_func_obj)
+
+ function Calculator() {
+	this.sum = function() {
+		this.a = +prompt('a?', 0);
+    	this.b = +prompt('b?', 0);
+		console.log(this.a + this.b)
+	}
+ }
+
+ let calculator = new Calculator();
+//  calculator.read()
+
+
