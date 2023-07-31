@@ -330,4 +330,18 @@ function User(name) {
  let calculator = new Calculator();
 //  calculator.read()
 
+let userAdmincheck = {
+	admin() {
+	console.log("i am chaining check admin")
+	return 5
+	}
+	
+  };
+  
+  let userGuest = {}
+  userAdmincheck.admin?.();
+  userGuest.admin?.();
+  userGuest.admin;
+  console.log(userGuest.admin?.(), userGuest.admin)
+  console.log(userAdmincheck.admin?.())
 
