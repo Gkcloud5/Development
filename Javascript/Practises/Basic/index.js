@@ -345,3 +345,21 @@ let userAdmincheck = {
   console.log(userGuest.admin?.(), userGuest.admin)
   console.log(userAdmincheck.admin?.())
 
+
+  let num1 = 255;
+  console.log("num to str", num1.toString(),  typeof(num1))
+  num1.toString()
+  console.log(typeof(num1))
+  //Rounding
+  let num2 = 1.234
+  console.log("round", Math.round(num2*100) / 100);
+  console.log("round2", num2.toFixed(1));
+  
+  let sum_int = 0.1 + 0.2;
+  console.log(sum_int.toFixed(2));
+  console.log(sum_int.toFixed(5));
+
+  let imt_num3 =  "45"
+  console.log(typeof(imt_num3), isFinite(imt_num3), typeof(isFinite(imt_num3)))
+  isFinite(imt_num3)
+  console.log(typeof(imt_num3), imt_num3)
