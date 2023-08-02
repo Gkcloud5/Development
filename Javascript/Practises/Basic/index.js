@@ -363,3 +363,7 @@ let userAdmincheck = {
   console.log(typeof(imt_num3), isFinite(imt_num3), typeof(isFinite(imt_num3)))
   isFinite(imt_num3)
   console.log(typeof(imt_num3), imt_num3)
+
+
+  let str_value = "gokul length"
+console.log("str length", str_value.length)
