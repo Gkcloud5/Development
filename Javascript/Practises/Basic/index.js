@@ -367,3 +367,29 @@ let userAdmincheck = {
 
   let str_value = "gokul length"
 console.log("str length", str_value.length)
+
+arr_each = ["gk1", "gk2", "gk3", "gk4"]
+
+arr_each.forEach((item, index, array) => {
+	console.log(`${item} and ${index} and ${array}`)
+})
+
+
+let user_arr = [
+	{ id:1, name: "gk1"},
+	{ id:2, name: "gk2"},
+	{ id:3, name: "gk3"}
+   ];
+   
+   let user_find = user_arr.find(item => item.id == 1);
+   console.log(user_find)
+
+   let lengths = ["len1", "len2", "len3"].map(item => item.length)
+   console.log(lengths)
+
+   let map_test = new Map();
+
+map_test.set('1', 'str1');
+map_test.set(1,'num1');
+
+console.log(map_test)
