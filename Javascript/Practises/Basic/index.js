@@ -393,3 +393,52 @@ map_test.set('1', 'str1');
 map_test.set(1,'num1');
 
 console.log(map_test)
+
+let receipMap = new Map([
+	['Carrot', 500],
+	['Tomato', 250],
+	['Onion', 150]
+   ]);
+   
+   for (let vegetable of receipMap.keys()){
+	   console.log(vegetable)
+   }
+   
+   for (let amount of receipMap.values()) {
+	   console.log(amount)
+   }
+   
+   for (let entryVal of receipMap) {
+	   console.log(entryVal)
+   }
+
+
+   let set_test = new Set()
+
+let gk1 = { name: "gk1" }
+let gk2 = { name: "gk2" }
+let gk3 = { name: "gk3" }
+
+set_test.add(gk1)
+set_test.add(gk2)
+set_test.add(gk3)
+set_test.add(gk1)
+
+console.log(set_test)
+
+for (let set_name of set_test) {
+	console.log(set_name.name)
+   }
+
+let student_json = {
+	name: 'Gokul',
+	age: 26,
+	isAdmin: false,
+	course: ['html', 'css', 'js'],
+	spouse:null
+ };
+ console.log(student_json)
+ console.log(typeof(student_json))
+ let json_stu = JSON.stringify(student_json);
+ console.log(json_stu)
+ console.log(typeof(json_stu))
