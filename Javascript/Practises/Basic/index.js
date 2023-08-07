@@ -442,3 +442,18 @@ let student_json = {
  let json_stu = JSON.stringify(student_json);
  console.log(json_stu)
  console.log(typeof(json_stu))
+
+
+ function sumAll(...args) {
+	let sum = 0;
+	for (let arg of args) sum += arg;
+	return sum;
+  }
+  
+  console.log(sumAll(1));
+  console.log(sumAll(1,2));
+  console.log(sumAll(1,2,3));
+
+
+  let arr = [3, 5, 1];
+console.log("Spread",Math.max(...arr));
