@@ -455,5 +455,5 @@ let student_json = {
   console.log(sumAll(1,2,3));
 
 
-  let arr = [3, 5, 1];
+let arr = [3, 5, 1];
 console.log("Spread",Math.max(...arr));
