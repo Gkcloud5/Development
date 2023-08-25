@@ -1,4 +1,6 @@
 console.log("Test")
 
-const p_element = document.getElementById('message')
-console.log(p_element)
+document.getElementById('message').style.color = "blue"
+
+let p_element = document.getElementById('message').innerHTML
+document.getElementById('getExam').innerHTML='content added from script'+ p_element
